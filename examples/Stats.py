@@ -17,7 +17,7 @@ from scipy import stats
 class Stats():
     """
     References:
-
+    https://www.biochemia-medica.com/en/journal/20/1/10.11613/BM.2010.004/fullArticle
     https://www.biochemia-medica.com/en/journal/20/1/10.11613/BM.2010.004/fullArticle
     https://www.researchgate.net/publication/256303889_Statistical_guidelines_for_Apis_mellifera_research
 
