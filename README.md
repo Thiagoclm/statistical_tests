@@ -14,3 +14,5 @@
 - Mann-Whitney U (two samples)
 - Friedman (three or more samples)
 - Kruskal-Wallis (three or more samples)
+
+![Alt text](tests_tree.png?raw=true "The selection process for the right statistical test")
