@@ -17,7 +17,7 @@ from scipy import stats
 class Stats():
     """
     References:
-    https://link.springer.com/chapter/10.1007/978-981-10-5687-1_15
+
     https://www.biochemia-medica.com/en/journal/20/1/10.11613/BM.2010.004/fullArticle
     https://www.researchgate.net/publication/256303889_Statistical_guidelines_for_Apis_mellifera_research
 
@@ -162,20 +162,3 @@ class Stats():
         res = stats.kruskal(*series)
         return res.statistic, res.pvalue
 #######################################################
-rng = np.random.default_rng()
-print(rng)
-
-# rvs1 = stats.norm.rvs(loc=5, scale=10, size=500, random_state=rng)
-# rvs2 = stats.norm.rvs(loc=5, scale=10, size=500, random_state=rng)
-# print(Stats.two_samp_unp_ttest(rvs1, rvs2))
-# print(Stats.two_samp_unp_welch(rvs1, rvs2))
-
-sample1 = [0.0571, 0.0813, 0.0831, 0.0976, 0.0817, 0.0859, 0.0735,
-             0.0659, 0.0923, 0.0836]
-sample2 = [0.0873, 0.0662, 0.0672, 0.0819, 0.0749, 0.0649, 0.0835,
-           0.0725]
-x = [0.0974, 0.1352, 0.0817, 0.1016, 0.0968, 0.1064, 0.105]
-y = [0.1033, 0.0915, 0.0781, 0.0685, 0.0677, 0.0697, 0.0764,
-           0.0689]
-z = [0.0703, 0.1026, 0.0956, 0.0973, 0.1039, 0.1045]
-print(Stats.multi_samp_anova(sample1, sample2, x, y,z))
