@@ -16,3 +16,4 @@
 - Kruskal-Wallis (three or more samples)
 
 ![Alt text](tests_tree.png?raw=true "The selection process for the right statistical test")
+-- Reference: https://www.biochemia-medica.com/en/journal/20/1/10.11613/BM.2010.004/fullArticle
